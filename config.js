@@ -14,10 +14,13 @@ module.exports = {
       label: 'Blog',
       path: '/'
     },
+    /* 
     {
-      label: 'CV',
-      path: '/cv'
-    },
+       label: 'CV',
+       path: '/cv'
+     },
+     Desativated CV
+     */
     {
       label: 'Portfolio',
       path: '/portfolio'
