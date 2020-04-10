@@ -10,23 +10,22 @@ module.exports = {
   postsPerPage: 20,
   googleAnalyticsId: 'UA-163354111-1',
   menu: [
-    /* 
     {
       label: 'Blog',
       path: '/'
     },
-    
-    {
-       label: 'CV',
-       path: '/cv'
-     },
-    
-    {
-      label: 'Portfolio',
-      path: '/portfolio'
-    }
-     Desativated all links
-     */
+    /* 
+   {
+      label: 'CV',
+      path: '/cv'
+    },
+   
+   {
+     label: 'Portfolio',
+     path: '/portfolio'
+   }
+    Desativated all links
+    */
   ],
   author: {
     name: 'Israel Cena',
