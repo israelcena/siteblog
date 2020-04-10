@@ -17,7 +17,7 @@ const FeaturedProducts = () => {
                 <p className="mb-0">
                   {product.description}{' '}
                   <a href={product.link} className="block">
-                    Read more...
+                    Mais Info
                   </a>
                 </p>
               </Col>
