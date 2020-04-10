@@ -7,11 +7,11 @@ module.exports = {
   subtitle: 'Desenvolverdor de soluções.',
   copyright: '© 2020 | Rio de Janeiro, Brasil',
   disqusShortname: 'IsraelCena',
-  postsPerPage: 20,
+  postsPerPage: 10,
   googleAnalyticsId: 'UA-163354111-1',
   menu: [
     {
-      label: 'Blog',
+      label: 'Home Blog',
       path: '/'
     },
     /* 
@@ -19,13 +19,12 @@ module.exports = {
       label: 'CV',
       path: '/cv'
     },
-   
-   {
-     label: 'Portfolio',
-     path: '/portfolio'
-   }
-    Desativated all links
+    Desativated CV
     */
+    {
+      label: 'Portfolio',
+      path: '/portfolio'
+    }
   ],
   author: {
     name: 'Israel Cena',
