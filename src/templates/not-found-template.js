@@ -8,9 +8,9 @@ const NotFoundTemplate = () => {
   const { title, subtitle, keywords } = useSiteMetadata()
 
   return (
-    <Layout title={`Não Encontrador - ${title}`} description={subtitle} keywords={keywords}>
+    <Layout title={`Não Encontrado - ${title}`} description={subtitle} keywords={keywords}>
       <Sidebar />
-      <Page title="Não Encontrador">
+      <Page title="Não Encontrado">
         <p>O Link Solicitado não existe! Sorry =/</p>
       </Page>
     </Layout>

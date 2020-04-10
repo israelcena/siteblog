@@ -23,13 +23,13 @@ const CategoryTemplate = ({ data, pageContext }) => {
   const { edges } = data.allMarkdownRemark
   const pageTitle =
     currentPage > 0
-      ? `${category} - Page ${currentPage} - ${siteTitle}`
+      ? `${category} - Página ${currentPage} - ${siteTitle}`
       : `${category} - ${siteTitle}`
 
   return (
     <Layout title={pageTitle} description={siteSubtitle} keywords={keywords}>
       <Sidebar />
-      <Page title={`Category: ${category}`}>
+      <Page title={`Categoria: ${category}`}>
         <Feed edges={edges} allCategories={allCategories} />
         <Pagination
           prevPagePath={prevPagePath}
