@@ -2,8 +2,8 @@
 template: post
 title: Testando
 slug: /posts/teste
-draft: true
-priority: 1
+draft: false
+priority: 5
 date: 2020-04-10T19:53:07.303Z
 description: Only post for teste my new web site
 category: testing
