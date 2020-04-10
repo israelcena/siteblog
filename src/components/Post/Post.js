@@ -18,7 +18,7 @@ const Post = ({ post, allCategories }) => {
   return (
     <AntContent className="p-10">
       <Link className="" to="/">
-        ← All Articles
+        ← Voltar
       </Link>
 
       <div className="">
