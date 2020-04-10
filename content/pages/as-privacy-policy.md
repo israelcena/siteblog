@@ -1,8 +1,9 @@
 ---
 template: page
-title: Account Surfer Privacy Policy
-slug: pages/as-privacy-policy
+title: Nova pagina
+slug: pages/pagina
 draft: false
+priority: 5
 ---
 Privacy Policy
 
