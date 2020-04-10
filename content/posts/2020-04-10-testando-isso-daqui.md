@@ -1,7 +1,7 @@
 ---
 template: post
 title: Testando
-slug: "0"
+slug: /posts/teste
 draft: true
 priority: 1
 date: 2020-04-10T19:53:07.303Z
