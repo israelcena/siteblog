@@ -6,7 +6,7 @@ const Categories = () => {
   const categories = useCategoriesList()
   return (
     <nav className="sidebar-navigation mt-20">
-      <h4 className="uppercase text-gray-300">Categories</h4>
+      <h4 className="uppercase text-gray-300">Categorias</h4>
       <ul className="list-none pl-0">
         {categories.map(category => (
           <li className="mb-3" key={category.fieldValue}>
