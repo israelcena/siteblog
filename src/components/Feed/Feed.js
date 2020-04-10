@@ -68,8 +68,8 @@ const Feed = ({ edges, allCategories }) =>
               </Link>
             </h1>
             <p className="text-gray-500 text-right">
-              Posted{' '}
-              <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
+              Postado a{' '}
+              <time dateTime={dayjs(date).format('DD MM, YYYY')}>
                 {dayjs(date).fromNow()}
               </time>
             </p>
