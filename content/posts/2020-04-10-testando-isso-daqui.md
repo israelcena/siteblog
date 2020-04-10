@@ -3,7 +3,7 @@ template: post
 title: Testando
 slug: /posts/teste
 draft: false
-priority: 2
+priority: 0
 date: 2020-04-10T19:53:07.303Z
 description: Only post for teste my new web site
 category: testing
