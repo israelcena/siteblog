@@ -1,12 +1,12 @@
 ---
 template: post
-title: Testando isso daqui
-slug: vendo
+title: Testando
+slug: "0"
 draft: true
-priority: 0
+priority: 1
 date: 2020-04-10T19:53:07.303Z
 description: Only post for teste my new web site
-category: testing again
+category: testing
 tags:
   - vendotags
 ---
