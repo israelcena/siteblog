@@ -8,7 +8,7 @@ const Content = ({ body, title, date }) => (
     <p className="text-gray-500">
       Postado em{' '}
       <time dateTime={dayjs(date).format('DD MM, YYYY')}>
-        {dayjs(date).format('DD MM, YYYY')}
+        {dayjs(date).format('DD/MM/YYYY')}
       </time>{' '}
       <br />
       {readingTime(body).text}
