@@ -72,7 +72,7 @@ A sintaxe de mv é semelhante ao exemplo acima. Vale lembrar que o mv não aceit
 
 rm -> Remover arquivos
 
-Para todos os efeitos, a remoção de arquivos via rm é permanente. **Ele não usa a lixeira.** Use com cuidado e verifique se você está excluindo explicitamente o que deseja, não o que pensa que deseja. 
+Para todos os efeitos, a remoção de arquivos via rm é permanente. **Ele não usa a lixeira.** Use com cuidado e verifique se você está excluindo explicitamente o que deseja, não o que pensa que deseja.
 `arquivo rm`  Remova o arquivo especificado do sistema.
 `pasta rm -r`   Remova a pasta especificada do sistema;
 `pasta rm -rf`  Remove a pasta especificada com força do sistema. Este comando pode danificar severamente sua configuração se usado incorretamente, pois não evitará que algo crítico esteja sendo excluído. Se você precisar usar isso, as chances são de que algo mais está quebrado ou ocorreu um erro.  Isso deve ser usado apenas como um método absoluto de **último recurso e não é recomendado**.
@@ -117,7 +117,7 @@ kill / killall / xkill -> Mate processos ofensivos.
 
 #### killall
 
-`killall nomedoprograma`  Killall mata * nomedoprograma * todas as instâncias do referido programa. Se houver, por exemplo, 3 sessões do firefox abertas, o `killall firefox` fará exatamente isso; mate todas as sessões do firefox.  O kill iria simplesmente pegar o PID especificado do processo do firefox que você deseja matar e matar apenas esse.
+`killall nomedoprograma`  Killall mata *nomedoprograma* todas as instâncias do referido programa. Se houver, por exemplo, 3 sessões do firefox abertas, o `killall firefox` fará exatamente isso; mate todas as sessões do firefox.  O kill iria simplesmente pegar o PID especificado do processo do firefox que você deseja matar e matar apenas esse.
 
 #### xkill
 
