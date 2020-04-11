@@ -1,6 +1,6 @@
 import React from 'react'
 import dayjs from 'dayjs'
-import readingTime from 'reading-time'
+import readingTime from 'word-per-minute'
 
 import isLeapYear from 'dayjs/plugin/isLeapYear' // import plugin
 import 'dayjs/locale/pt-br' // import locale
