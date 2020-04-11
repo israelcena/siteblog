@@ -3,7 +3,7 @@ template: post
 title: Dicas Essenciais Para Seu Terminal do Linux 📚📚
 slug: /posts/dicas-essenciais-para-seu-terminal-do-linux
 draft: false
-priority: 9
+priority: 1
 date: 2020-04-11T11:43:07.303Z
 description: Um tutorial de comandos essenciais que você precisa saber após
   instalar o linux em seu pc.
