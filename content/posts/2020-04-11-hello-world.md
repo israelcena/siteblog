@@ -11,7 +11,7 @@ tags:
   - Profissional de Marketing
   - Hello
 ---
-##### Esse é o meu primeiro post no meu blog 🥇
+## Esse é o meu primeiro post no meu blog 🥇
 
 Então como todo bom desenvolvedor eu deixei o seu título assim — “Hello World”.
 
@@ -24,3 +24,5 @@ Também sou formado em **Marketing,** assim sou um profissional 100% especializa
 Sou uma pessoa apaixonada por tecnologia desde pequeno. Acredito que com bastante trabalho e fé tudo pode ser possível.
 
 Atualmente trabalho como **Freelancer**, escrevo artigos e dicas aqui no meu blog.
+
+![IsraelCena](/media/israelcena.jpg)
