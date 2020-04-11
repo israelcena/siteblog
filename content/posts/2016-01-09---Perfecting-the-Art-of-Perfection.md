@@ -2,14 +2,13 @@
 template: post
 title: Trello + GTD = Trello Bookmark
 slug: /posts/trello-plus-gtd-equals-trello-bookmark
-draft: false
+draft: true
 priority: 5
 date: 2019-03-27T00:46:37.121Z
 description: >-
   You know, I hate routine.
 
-  But one of the greatest things about being a programmer is that you can
-  automate your routine.
+  But one of the greatest things about being a programmer is that you can automate your routine.
 category: teste
 tags:
   - trello
