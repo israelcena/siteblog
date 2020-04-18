@@ -5,7 +5,7 @@
   "main": "n/a",
   "private": false,
   "scripts": {
-    "develop": "yarn run clean && gatsby develop",
+    "dev": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "clean": "rimraf .cache public",
     "release": "standard-version"
