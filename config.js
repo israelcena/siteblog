@@ -14,17 +14,16 @@ module.exports = {
       label: 'Home Blog',
       path: '/'
     },
-    /* 
-   {
+    {
       label: 'CV',
       path: '/cv'
-    },
-    
-    {
-      label: 'Portfolio',
-      path: '/portfolio'
     }
-    Desativated
+    /*
+      {
+        label: 'Portfolio',
+        path: '/portfolio'
+      }
+      Desativated
     */
   ],
   author: {

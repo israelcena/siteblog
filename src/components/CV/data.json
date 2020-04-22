@@ -1,22 +1,22 @@
 {
   "header": {
     "name": "Israel Maicena Neves",
-    "position": "JAVASCRIPT TECH LEADER",
+    "position": "Front-End Developer",
     "img": {
       "src": "/photo.jpg",
       "alt": "Israel Maicena Neves"
     },
-    "location": "Ukraine, Kyiv",
+    "location": "Rio de Janeiro, Brasil",
     "contacts": [
       {
         "type": "telegram",
-        "link": "https://t.me/dospolov",
-        "linkName": "dospolov"
+        "link": "https://t.me/israelcena",
+        "linkName": "israelcena"
       },
       {
         "type": "github",
-        "link": "https://github.com/dospolov",
-        "linkName": "dospolov"
+        "link": "https://github.com/israelcena",
+        "linkName": "israelcena"
       }
     ]
   },
