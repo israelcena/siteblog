@@ -22,41 +22,36 @@
   },
   "experiments": [
     {
-      "name": "Account Surfer",
+      "name": "Calculadora",
       "locationIcon": "windows-store.svg",
-      "description": "Quickly switch between accounts and browsers",
+      "description": "Uma Calculadora para Windows, Linux e MacOS",
       "builtWith": [
         "electron",
-        "react",
-        "redux",
-        "reduxsaga",
-        "fabric"
+        "react"
       ],
       "link": "https://www.microsoft.com/en-us/p/account-surfer/9phvp9rjr7r7"
     },
     {
-      "name": "Trello Bookmark",
-      "locationIcon": "chrome-webstore.svg",
-      "description": "Store your bookmarks as Trello Cards",
+      "name": "word-per-minute",
+      "locationIcon": "npm.svg",
+      "description": "Npm Package para calcular o tempo de leitura",
       "builtWith": [
-        "apollo",
-        "react",
-        "antd"
+        "apollo"
       ],
-      "link": "https://chrome.google.com/webstore/detail/trello-bookmark/ephoopolmejjnjkbbdcfgoohokhnekca",
-      "sourceCode": "https://github.com/dospolov/trello-bookmark"
+      "link": "https://www.npmjs.com/package/word-per-minute",
+      "sourceCode": "https://github.com/israelcena/word-per-minute"
     },
     {
-      "name": "Blog",
+      "name": "Meu Blog",
       "locationIcon": "chrome.svg",
-      "description": "Read about productivity and development",
+      "description": "Meu blog onde compartilho conhecimento",
       "builtWith": [
         "gatsby",
         "react",
         "netlify"
       ],
-      "link": "https://dospolov.com",
-      "sourceCode": "https://github.com/dospolov/gatsby-starter-blog-and-cv"
+      "link": "https://israelcena.com.br",
+      "sourceCode": "https://github.com/israelcena/siteblog"
     }
   ],
   "pitchLine": "My passions are — web-development, cognitive biases and anthropology.",
