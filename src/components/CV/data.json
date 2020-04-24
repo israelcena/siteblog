@@ -29,7 +29,7 @@
         "electron",
         "react"
       ],
-      "link": "https://www.microsoft.com/en-us/p/account-surfer/9phvp9rjr7r7"
+      "sourceCode": "https://github.com/israelcena/curso-javascript-projeto-calculadora-clone"
     },
     {
       "name": "word-per-minute",
@@ -54,7 +54,7 @@
       "sourceCode": "https://github.com/israelcena/siteblog"
     }
   ],
-  "pitchLine": "My passions are — web-development, cognitive biases and anthropology.",
+  "pitchLine": "Tecnologias que são as minhas paixões no desenvolvimento Web.",
   "topTech": [
     "react",
     "graphql",
@@ -79,7 +79,7 @@
       "displayInTopList": true
     },
     "apollo": {
-      "name": "Apollo",
+      "name": "NodeJS",
       "logo": "apollo.svg",
       "website": "https://www.apollographql.com/",
       "displayInTopList": true
@@ -167,19 +167,18 @@
         "GIT",
         "Gulp",
         "Google Maps API",
-        "D3.js",
+        "EJS",
         "Ember.js",
         "Fabric UI",
         "Figma",
         "Handlebars",
-        "HG",
         "HTML 5",
         "Illustrator",
         "Jest",
         "JIRA",
         "LESS",
         "Material UI",
-        "Meteor.js",
+        "Marketing",
         "Regexp",
         "REST",
         "SASS",
@@ -188,7 +187,7 @@
         "Stylus",
         "Styled Components",
         "Vanilla JS",
-        "Underscore / Lodash",
+        "League of Legends",
         "Counter-Strike"
       ]
     }
