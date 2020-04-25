@@ -48,7 +48,8 @@
       "builtWith": [
         "gatsby",
         "react",
-        "netlify"
+        "netlify",
+        "bootstrap"
       ],
       "link": "https://israelcena.com.br",
       "sourceCode": "https://github.com/israelcena/siteblog"
@@ -56,14 +57,14 @@
   ],
   "pitchLine": "Tecnologias que são as minhas paixões no desenvolvimento Web.",
   "topTech": [
+    "bootstrap",
+    "node",
     "react",
-    "graphql",
-    "apollo",
     "redux",
-    "reduxsaga",
     "electron",
     "gatsby",
-    "antd"
+    "redis",
+    "graphql"
   ],
   "tech": {
     "react": {
@@ -80,7 +81,7 @@
     },
     "apollo": {
       "name": "NodeJS",
-      "logo": "apollo.svg",
+      "logo": "nodejs.svg",
       "website": "https://www.apollographql.com/",
       "displayInTopList": true
     },
@@ -114,11 +115,11 @@
       "website": "https://ant.design/",
       "displayInTopList": true
     },
-    "fabric": {
-      "name": "Fabric UI",
-      "logo": "fabric.svg",
-      "website": "https://developer.microsoft.com/en-us/fabric",
-      "displayInTopList": false
+    "bootstrap": {
+      "name": "Bootstrap",
+      "logo": "bootstrap.svg",
+      "website": "https://www.getbootstrap.com/",
+      "displayInTopList": true
     },
     "netlify": {
       "name": "Netlify",
@@ -126,11 +127,23 @@
       "website": "https://www.netlify.com/",
       "displayInTopList": false
     },
-    "bootstrap": {
-      "name": "Bootstrap",
-      "logo": "bootstrap.svg",
-      "website": "https://www.getbootstrap.com/",
+    "node": {
+      "name": "NodeJS",
+      "logo": "nodejs.svg",
+      "website": "https://nodejs.org/",
+      "displayInTopList": true
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "logo": "js.svg",
+      "website": "https://www.javascript.com/",
       "displayInTopList": false
+    },
+    "redis": {
+      "name": "Redis",
+      "logo": "redis.svg",
+      "website": "https://redis.io/",
+      "displayInTopList": true
     }
   },
   "skills": {
