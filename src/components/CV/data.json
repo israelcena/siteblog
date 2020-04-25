@@ -125,6 +125,12 @@
       "logo": "netlify.svg",
       "website": "https://www.netlify.com/",
       "displayInTopList": false
+    },
+    "bootstrap": {
+      "name": "Bootstrap",
+      "logo": "bootstrap.svg",
+      "website": "https://www.getbootstrap.com/",
+      "displayInTopList": false
     }
   },
   "skills": {

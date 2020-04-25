@@ -1,14 +1,14 @@
 [
   {
     "name": "Tutorial Essencial de Shell",
-    "logo": "/logos/empowered-by-gnu.svg",
+    "logo": "/logos/shell.svg",
     "description": "Comandos essenciais que você precisa saber após instalar o linux em seu pc.",
     "link": "/posts/tutorial-essencial-de-shell-de-15-minutos"
   },
   {
     "name": "Repositório do site no Github",
     "logo": "/logos/github.svg",
-    "description": "Veja o meu repositório no github desse site.",
+    "description": "Repositório no github desse site, aproveite e dê uma olhada em todos os meus projetos.",
     "link": "https://github.com/israelcena/siteblog"
   }
 ]
