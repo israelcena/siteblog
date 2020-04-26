@@ -3,7 +3,7 @@ import { Card, Row, Col, Divider } from 'antd'
 
 const Education = ({ education }) => (
   <>
-    <h3 className="text-center mt-1 mb-0">Education</h3>
+    <h3 className="text-center mt-1 mb-0">Formação</h3>
     <Card className="education">
       {education.map((institution, i) => (
         <Row
