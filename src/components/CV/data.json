@@ -25,19 +25,14 @@
       "name": "Calculadora",
       "locationIcon": "windows-store.svg",
       "description": "Uma Calculadora para Windows, Linux e MacOS",
-      "builtWith": [
-        "electron",
-        "react"
-      ],
+      "builtWith": ["electron", "react"],
       "sourceCode": "https://github.com/israelcena/curso-javascript-projeto-calculadora-clone"
     },
     {
       "name": "word-per-minute",
       "locationIcon": "npm.svg",
       "description": "Npm Package para calcular o tempo de leitura",
-      "builtWith": [
-        "apollo"
-      ],
+      "builtWith": ["apollo"],
       "link": "https://www.npmjs.com/package/word-per-minute",
       "sourceCode": "https://github.com/israelcena/word-per-minute"
     },
@@ -45,12 +40,7 @@
       "name": "Meu Blog",
       "locationIcon": "chrome.svg",
       "description": "Meu blog onde compartilho conhecimento",
-      "builtWith": [
-        "gatsby",
-        "react",
-        "netlify",
-        "bootstrap"
-      ],
+      "builtWith": ["gatsby", "react", "netlify", "bootstrap"],
       "link": "https://israelcena.com.br",
       "sourceCode": "https://github.com/israelcena/siteblog"
     }
@@ -181,13 +171,7 @@
       ]
     },
     "hard": {
-      "featured": [
-        "Bootstrap",
-        "Marketing",
-        "ES6 / ES2017",
-        "HTML 5",
-        "SCSS"
-      ],
+      "featured": ["Bootstrap", "Marketing", "ES6 / ES2017", "HTML 5", "SCSS"],
       "other": [
         "Docker",
         "CSS 3",
@@ -215,21 +199,51 @@
       },
       "projects": [
         {
-          "name": "Trading systems",
-          "role": "TI Tech",
-          "logo": "drupal.svg",
+          "name": "WebSite",
+          "role": "Drupal Developer",
+          "logo": "ne.svg",
           "logoHeight": 10,
           "description": "Manutenção de sites desenvolvidos em Drupal.",
+          "achievements": [
+            "Correção de bugs (Estrutura de módulos)",
+            "Criação e Inclusão de módulos",
+            "Reorganização da estrutura do projeto"
+          ],
           "stack": {
-            "me": [
-              "Drupal",
-              "Bootstrap",
-              "HTML",
-              "CSS"
-            ],
-            "all": [
-              "PHP"
-            ]
+            "me": ["Drupal", "Bootstrap", "HTML", "CSS"],
+            "all": ["PHP"]
+          }
+        },
+        {
+          "name": "Administrador TI",
+          "role": "Assistente de TI",
+          "logo": "f43.svg",
+          "logoHeight": 10,
+          "description": "Manutenção do servidor local de troca de mensagens.",
+          "achievements": [
+            "Correção de bugs (Servidor e cliente)",
+            "Criação de templates para gerenciamentos de emails",
+            "Gerenciamento do serviço diretamente pelo servidor local",
+            "Manuntenção física dos servidores de arquivos, mensagens e roteamento de rede"
+          ],
+          "stack": {
+            "me": ["Linux", "Lotus", "HTML", "CSS"],
+            "all": ["Samba"]
+          }
+        },
+        {
+          "name": "WebSite only HTML and CSS",
+          "role": "Front End Developer",
+          "logo": "eames.svg",
+          "logoHeight": 10,
+          "description": "Criação de site Front End.",
+          "achievements": [
+            "Criação de toda Estrutura Front",
+            "Inclusão direta no servidor local"
+          ],
+          "stack": {
+            "me": ["HTML", "CSS"],
+            "all": ["Single Host"]
           }
         }
       ]
@@ -247,14 +261,8 @@
           "role": "Assistente de TI",
           "description": "Além de diversas funções relacionadas a TI, participei também da manutenção do website e loja online da empresa.",
           "stack": {
-            "me": [
-              "HTML",
-              "CSS",
-              "Javrascript"
-            ],
-            "all": [
-              "PHP"
-            ]
+            "me": ["HTML", "CSS", "Javrascript"],
+            "all": ["PHP"]
           },
           "achievements": [
             "Reestruturação de website",
@@ -273,18 +281,12 @@
         {
           "name": "Website",
           "logoHeight": 70,
-          "logo": "html.svg",
+          "logo": "cec.svg",
           "role": "Web Developer",
           "description": "Desenvolvimento website completo.",
           "stack": {
-            "me": [
-              "HTML",
-              "CSS"
-            ],
-            "all": [
-              ".Net",
-              "MS Outlook"
-            ]
+            "me": ["HTML", "CSS"],
+            "all": ["MS Outlook"]
           },
           "achievements": [
             "Criação de emails corporativos",
@@ -305,17 +307,12 @@
         {
           "name": "E-commerce",
           "logoHeight": 70,
-          "logo": "php.svg",
+          "logo": "sosmusica.svg",
           "role": "Web Developer",
           "description": "Criação de loja online automatizada.",
           "stack": {
-            "me": [
-              "PHP",
-              "OsCommerce"
-            ],
-            "all": [
-              "Paypal"
-            ]
+            "me": ["PHP", "OsCommerce"],
+            "all": ["Paypal"]
           },
           "achievements": [
             "Contratação da Hospedagem",
@@ -334,7 +331,7 @@
       "logo": "atados.png",
       "logoHeight": 50,
       "period": "2020",
-      "description": "Voluntário para ajudar diversas causas. Conhecimentos fornecidos: HTML / CSS / jQuery / Ajax / Marketing / boas práticas"
+      "description": "Voluntário para ajudar diversas causas. Ajudando como Web Developer Full Stack, Gerente de Social Media e boas práticas de marketing"
     }
   ],
   "education": [
