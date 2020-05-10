@@ -17,14 +17,11 @@ module.exports = {
     {
       label: 'CV',
       path: '/cv'
+    },
+    {
+      label: 'Portfolio',
+      path: '/portfolio'
     }
-    /*
-      {
-        label: 'Portfolio',
-        path: '/portfolio'
-      }
-      Desativated
-    */
   ],
   author: {
     name: 'Israel Cena',
