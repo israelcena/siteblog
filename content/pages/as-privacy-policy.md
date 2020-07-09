@@ -2,8 +2,8 @@
 template: page
 title: Nova pagina
 slug: pages/pagina
-draft: false
-priority: 5
+draft: true
+priority: 0
 ---
 Privacy Policy
 
