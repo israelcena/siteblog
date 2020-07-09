@@ -3,7 +3,7 @@ template: post
 title: Erro Maldito no Gatsby 😡😡😡
 slug: /posts/gatsby-error
 draft: false
-priority: 2
+priority: 0
 date: 2020-04-25T21:09:47.241Z
 description: "Error: ENOSPC: System limit for number of file watchers reached.
   Atrapalha e muito a desenvolver ! 😡😡😡"
