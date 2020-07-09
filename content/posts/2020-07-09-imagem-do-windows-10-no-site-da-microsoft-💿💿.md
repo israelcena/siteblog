@@ -1,7 +1,7 @@
 ---
 template: post
 title: Imagem do windows 10 no site da microsoft 💿💿
-slug: imagemwindows
+slug: /posts/imagemwindows10
 draft: true
 priority: 0
 date: 2020-07-09T14:20:07.876Z
