@@ -1,6 +1,6 @@
 ---
 template: post
-title: Imagem do windows 10 no site da microsoft 💿💿
+title: Imagem do windows 10 no site da microsoft 💿
 slug: /posts/imagemwindows10
 draft: false
 priority: 0
