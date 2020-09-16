@@ -1,6 +1,6 @@
 ---
 template: post
-title: Resenha do livro "Gatilhos Mentais" de Gustavo Ferreira
+title: Resenha do livro "Gatilhos Mentais" de Gustavo Ferreira 📚
 slug: /posts/gatilhos-mentais
 draft: true
 priority: 0
@@ -17,4 +17,6 @@ tags:
   - livros
   - chamadas
 ---
+![Gatilhos Mentais de Gustavo Ferreira](/media/gatilhos.jpg "Livro Gatilhos Mentais")
+
 O livro apresenta diversas formas práticas de apresentação de produtos e serviços. Gustavo Ferreira (o autor) também aproveita o livro para fazer um pequeno "merchan", mas ele também ensina aos leitores a fazer o mesmo (escrever um livro como apresentação de serviço e reforço de autoridade). Nesse início
