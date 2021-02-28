@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link }  from 'gatsby'
 import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout'
 import Page from '../components/Page'
@@ -12,6 +13,7 @@ const NotFoundTemplate = () => {
       <Sidebar />
       <Page title="Não Encontrado">
         <p>O Link Solicitado não existe! Sorry =/</p>
+        <Link to='/'>Voltar Para Home</Link>
       </Page>
     </Layout>
   )
