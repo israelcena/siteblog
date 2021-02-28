@@ -85,8 +85,8 @@
     "eslint": "6.8.0",
     "prettier": "^2.0.4",
     "rimraf": "3.0.2",
-    "slate": "^0.57.1",
-    "standard-version": "8.0.1",
+    "slate": "^0.47.9",
+    "standard-version": "^9.1.1",
     "tailwindcss": "^1.2.0"
   }
 }
