@@ -224,7 +224,7 @@
             "Correção de bugs (Servidor e cliente)",
             "Criação de templates para gerenciamentos de emails",
             "Gerenciamento do serviço diretamente pelo servidor local",
-            "Manuntenção física dos servidores de arquivos, mensagens e roteamento de rede"
+            "Manutenção física dos servidores de arquivos, mensagens e roteamento de rede"
           ],
           "stack": {
             "me": ["Linux", "Lotus", "HTML", "CSS"],
