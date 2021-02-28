@@ -25,7 +25,7 @@ module.exports = {
   ],
   author: {
     name: 'Israel Cena',
-    photo: '/photo.jpg',
+    photo: '/photo.jfif',
     bio: 'Desenvolvedor de soluções.',
     contacts: {
       github: 'israelcena',
