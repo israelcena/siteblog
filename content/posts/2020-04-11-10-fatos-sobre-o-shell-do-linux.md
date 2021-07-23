@@ -6,7 +6,7 @@ draft: false
 priority: 0
 date: 2020-04-11T08:43:07.303Z
 description: Aqueles fatos que os iniciantes em Linux não esperavam.
-category: Tutoriais
+category: Linux
 tags:
   - Shell
   - Linux

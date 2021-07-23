@@ -7,7 +7,7 @@ priority: 1
 date: 2020-04-11T11:43:07.303Z
 description: Um tutorial de comandos essenciais que você precisa saber após
   instalar o linux em seu pc.
-category: Tutoriais
+category: Linux
 tags:
   - Linux
   - Shell
