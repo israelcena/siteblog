@@ -3,7 +3,7 @@ template: post
 title: Explicando a Função forEach()
 slug: /posts/js-foreach
 draft: false
-priority: 9
+priority: 0
 date: 2021-07-23T10:43:07.303Z
 description: >-
   Um tutorial rápido de comandos essenciais que você precisa saber após instalar o linux em seu pc.
