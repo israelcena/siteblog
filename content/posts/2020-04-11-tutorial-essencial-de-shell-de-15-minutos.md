@@ -3,7 +3,7 @@ template: post
 title: Tutorial Essencial de Shell de 15 Minutos 🕒
 slug: /posts/tutorial-essencial-de-shell-de-15-minutos
 draft: false
-priority: 9
+priority: 0
 date: 2020-04-11T10:43:07.303Z
 description: >-
   Um tutorial rápido de comandos essenciais que você precisa saber após instalar o linux em seu pc.
@@ -15,6 +15,7 @@ tags:
   - Terminal
   - Fatos Shell Linux
 ---
+
 ## Shell
 
 ![Shell](/media/shelllinux/shelllinux.jpeg)
@@ -25,9 +26,9 @@ Há um momento em que até os usuários mais iniciantes se deparam com o termina
 
 ## Antes de começar
 
- 1. Lembrando que esse [Tutorial](https://israelcena.com.br/category/Tutoriais) é apenas para usuários de Linux! Vale lembrar também que a versão do seu Linux pode ser diferente! Aqui estou usando o bash do Linux Mint19 MATE version.
- 2. Existem diversas maneiras de iniciar o seu terminal Linux, não vou listar todas as opções disponíveis. Suponho que você possa encontrá-lo no menu ou clicando com o botão direito na área de trabalho.
- 3. Já Existe aqui no blog um post sobre [10 Fatos Sobre o Shell do Linux](https://israelcena.com.br/posts/10-fatos-sobre-o-shell-do-linux) que vale apena você Ler também para aprender sobre o Shell do Linux.
+1.  Lembrando que esse [Tutorial](https://israelcena.com.br/category/Tutoriais) é apenas para usuários de Linux! Vale lembrar também que a versão do seu Linux pode ser diferente! Aqui estou usando o bash do Linux Mint19 MATE version.
+2.  Existem diversas maneiras de iniciar o seu terminal Linux, não vou listar todas as opções disponíveis. Suponho que você possa encontrá-lo no menu ou clicando com o botão direito na área de trabalho.
+3.  Já Existe aqui no blog um post sobre [10 Fatos Sobre o Shell do Linux](https://israelcena.com.br/posts/10-fatos-sobre-o-shell-do-linux) que vale apena você Ler também para aprender sobre o Shell do Linux.
 
 ## Comandos
 
@@ -35,7 +36,7 @@ Há um momento em que até os usuários mais iniciantes se deparam com o termina
 
 cd -> Usado para navegar pelos diretórios. Você pode mover para qualquer local pelo caminho.
 
-`cd` Isso o levará de volta para sua $HOME (pasta local do seu usuário), é o mesmo que `cd ~`
+`cd` Isso o levará de volta para sua \$HOME (pasta local do seu usuário), é o mesmo que `cd ~`
 
 `cd ..` Isso levará de volta exatamente um diretório. Iniciar em /home/justin/Desktop, `cd ..` me colocará em /home/justin. E isso pode ser expandido, `cd ../../` a partir da localização da Desktop, em vez disso, moverá-me 2 pastas para trás, da minha Desktop para /home.
 `cd foldername/` Isto irá avançar para a pasta especificada na sua pasta atual. Tome nota do prefixo ausente / é uma omissão importante. se eu estiver em /home/justin e quiser acessar o Desktop, devo digitar `cd Desktop/` sem o / antes do Desktop. Digitar / antes de nos colocar na raiz do sistema de arquivos, que está incorreto.
@@ -73,9 +74,9 @@ A sintaxe de mv é semelhante ao exemplo acima. Vale lembrar que o mv não aceit
 rm -> Remover arquivos
 
 Para todos os efeitos, a remoção de arquivos via rm é permanente. **Ele não usa a lixeira.** Use com cuidado e verifique se você está excluindo explicitamente o que deseja, não o que pensa que deseja.
-`arquivo rm`  Remova o arquivo especificado do sistema.
-`pasta rm -r`   Remova a pasta especificada do sistema;
-`pasta rm -rf`  Remove a pasta especificada com força do sistema. Este comando pode danificar severamente sua configuração se usado incorretamente, pois não evitará que algo crítico esteja sendo excluído. Se você precisar usar isso, as chances são de que algo mais está quebrado ou ocorreu um erro.  Isso deve ser usado apenas como um método absoluto de **último recurso e não é recomendado**.
+`arquivo rm` Remova o arquivo especificado do sistema.
+`pasta rm -r` Remova a pasta especificada do sistema;
+`pasta rm -rf` Remove a pasta especificada com força do sistema. Este comando pode danificar severamente sua configuração se usado incorretamente, pois não evitará que algo crítico esteja sendo excluído. Se você precisar usar isso, as chances são de que algo mais está quebrado ou ocorreu um erro. Isso deve ser usado apenas como um método absoluto de **último recurso e não é recomendado**.
 
 ### nano
 
@@ -85,7 +86,7 @@ Pode-se editar arquivos usando o nano em um terminal para fazer arquivos rápido
 Se um arquivo pertence à raiz, ele não é editável como um usuário normal.
 O nano deve ser prefixado com sudo para salvar as alterações. Caso contrário, ele será aberto no modo somente leitura.
 
-`nano newfile.whatever` O  Nano cria um novo arquivo com o nome especificado (newfile.whatever) e o abre para edição.
+`nano newfile.whatever` O Nano cria um novo arquivo com o nome especificado (newfile.whatever) e o abre para edição.
 
 `nano existing_file` O Nano abre o arquivo existente para edição.
 
@@ -99,13 +100,13 @@ Saia do nano usando a combinação de teclas **ctrl + x**. Se você tiver altera
 mkdir -> Criar diretórios
 
 `mkdir nome_da_pasta` Cria a pasta com o nome especificado
-`mkdir -p /caminho/para/pasta/nome`  Cria cada pasta conforme necessário. Para criar a pasta /home/justin/newfolder/2ndfolder, e somente /home/justin existe, o uso do mkdir -p tornará os diretórios newfolder e 2ndfolder.
+`mkdir -p /caminho/para/pasta/nome` Cria cada pasta conforme necessário. Para criar a pasta /home/justin/newfolder/2ndfolder, e somente /home/justin existe, o uso do mkdir -p tornará os diretórios newfolder e 2ndfolder.
 
 ### ps
 
 ps -> Listar processos
 
-`ps aux`  Listar todos os processos detalhadamente em execução no sistema, incluindo usuário, ID do processo (PID) e nome do processo. Usando isso, é possível visualizar sua lista de processos e, se necessário, eliminar processos desnecessários ou paralisados.
+`ps aux` Listar todos os processos detalhadamente em execução no sistema, incluindo usuário, ID do processo (PID) e nome do processo. Usando isso, é possível visualizar sua lista de processos e, se necessário, eliminar processos desnecessários ou paralisados.
 
 ### kill / killall / xkill
 
@@ -113,11 +114,11 @@ kill / killall / xkill -> Mate processos ofensivos.
 
 #### kill
 
-`kill PID`  PID é um número que faz referência ao processo. Deve-se obter o PID de um comando como ps aux. Se um processo se recusar a morrer, pode-se especificar, alternativamente, `kill -9 PID`, que deve encerrar o processo por qualquer meio, mesmo de maneira forçada ou se isso atrapalha o sistema.
+`kill PID` PID é um número que faz referência ao processo. Deve-se obter o PID de um comando como ps aux. Se um processo se recusar a morrer, pode-se especificar, alternativamente, `kill -9 PID`, que deve encerrar o processo por qualquer meio, mesmo de maneira forçada ou se isso atrapalha o sistema.
 
 #### killall
 
-`killall nomedoprograma`  Killall mata *nomedoprograma* todas as instâncias do referido programa. Se houver, por exemplo, 3 sessões do firefox abertas, o `killall firefox` fará exatamente isso; mate todas as sessões do firefox.  O kill iria simplesmente pegar o PID especificado do processo do firefox que você deseja matar e matar apenas esse.
+`killall nomedoprograma` Killall mata _nomedoprograma_ todas as instâncias do referido programa. Se houver, por exemplo, 3 sessões do firefox abertas, o `killall firefox` fará exatamente isso; mate todas as sessões do firefox. O kill iria simplesmente pegar o PID especificado do processo do firefox que você deseja matar e matar apenas esse.
 
 #### xkill
 
@@ -125,13 +126,14 @@ O xkill é uma maneira da GUI de clicar e matar o processo. Digitar `xkill` deve
 
 ### Pipes "|"
 
-Pipes  -> A coisa mais útil que você aprenderá no *NIX (Unix, Linux...). Redirecionando a saída de um programa para outra entrada.
+Pipes -> A coisa mais útil que você aprenderá no \*NIX (Unix, Linux...). Redirecionando a saída de um programa para outra entrada.
 
 Pipes são representados pela 'barra reta', também conhecida como '| '.
 É uma chave raramente usada no Windows, geralmente encontrada na tecla barra invertida.
-Eles são usados ​​para vincular comandos.  As tubulações pegam a saída de um comando e a encaminham para ser usada como entrada para um segundo comando encadeado.
+Eles são usados ​​para vincular comandos. As tubulações pegam a saída de um comando e a encaminham para ser usada como entrada para um segundo comando encadeado.
 Consulte mais recursos online com informações sobre pipes e seu uso, pois existem volumes.
->Quero lhe incentivar a pesquisar mais também!
+
+> Quero lhe incentivar a pesquisar mais também!
 
 ### \> e \>>
 
@@ -139,14 +141,14 @@ Consulte mais recursos online com informações sobre pipes e seu uso, pois exis
 
 \ > é usado para **substituir** o conteúdo dos arquivos existentes no momento e substituí-lo pela saída do novo comando.
 \ >> é usado para **acrescentar** informações aos arquivos existentes no momento. Isso é útil para o log.
-Exemplo: `ps aux > processes.log` Envia a saída de *ps aux* para o arquivo *process.log* para visualizar a saída do comando em um editor de texto e substitui o conteúdo atual do arquivo.
+Exemplo: `ps aux > processes.log` Envia a saída de _ps aux_ para o arquivo _process.log_ para visualizar a saída do comando em um editor de texto e substitui o conteúdo atual do arquivo.
 
 ### tee
 
 tee -> Enviar saída para um arquivo e para o terminal
 
 tee é usado em conjunto com um '| 'para pegar a saída do comando e enviá-la para outro lugar. Isso é útil se houver erros que voam pela tela antes de você poder lê-los, dessa forma, o que quer que esteja na tela também é capturado em um arquivo.
-Exemplo: `dmesg | tee boot.txt` executaria o comando *dmesg*, que mostra as informações iniciais de inicialização e o ' | 'envia a saída do dmesg para o tee , que faz seu trabalho enviando-o ao terminal e ao arquivo de log boot.txt.
+Exemplo: `dmesg | tee boot.txt` executaria o comando _dmesg_, que mostra as informações iniciais de inicialização e o ' | 'envia a saída do dmesg para o tee , que faz seu trabalho enviando-o ao terminal e ao arquivo de log boot.txt.
 
 ## Conclusão
 
