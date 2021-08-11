@@ -1,77 +1,85 @@
-## 🚀 Quick start
+# Site Blog
 
-1.  **Create a Gatsby site.**
+My own blog
 
-    Use the Gatsby CLI to create a new site, specifying the Blog and CV starter.
+### Prerequisites
 
-    ```shell
-    # create a new Gatsby site using the Blog and CV starter
-    gatsby new my-blog-and-cv https://github.com/dospolov/gatsby-starter-blog-and-cv
-    ```
+What things you need to install the software and how to install them
 
-1.  **Start developing.**
+```
+NodeJS
+NPM
+Gatsby
+```
 
-    Navigate into your new site’s directory and start it up.
+## Installing
 
-    ```shell
-    cd my-blog-and-cv/
-    gatsby develop
-    ```
+A step by step series of examples that tell you how to get a development env running
 
-1.  **Open the source code and start editing!**
+Say what the step will be
 
-    Your site is now running at `http://localhost:8000`!
+```
+Give the example
+```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+And repeat
 
-    Open the `my-blog-and-cv` directory in your code editor of choice and edit `content/posts/*`. Save your changes and the browser will update in real time!
+```
+until finished
+```
 
-## 🧐 What's inside?
+End with an example of getting some data out of the system or using it for a little demo
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+## Running the tests
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── yarn.lock
-    ├── package.json
-    └── README.md
+Explain how to run the automated tests for this system
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+### Break down into end to end tests
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Explain what these tests test and why
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+```
+Give an example
+```
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+### And coding style tests
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Explain what these tests test and why
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+```
+Give an example
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+## Deployment
 
-8.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+Add additional notes about how to deploy this on a live system
 
-9.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project. We recommend using `yarn`.
+## Built With
 
-10. **`README.md`**: A text file containing useful reference information about your project.
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [Maven](https://maven.apache.org/) - Dependency Management
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## 🎓 Learning Gatsby
+## Contributing
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+## Versioning
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## 💫 Deploy
+## Authors
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dospolov/gatsby-starter-blog-and-cv)
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/dospolov/gatsby-starter-blog-and-cv)
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
