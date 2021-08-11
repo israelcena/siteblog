@@ -14,6 +14,7 @@ tags:
   - Programação
   - JS Functions
 ---
+
 ## O que faz o método forEach ?
 
 <center>
@@ -24,8 +25,8 @@ tags:
 
 ## Pequena Introdução
 
-A função **_forEach_**, executará uma determinada tarefa para cada item 
-*(ou seja, elementos armazenados)* de um array. Essa tarefa, deverá ser determinada através de uma função.
+A função **_forEach_**, executará uma determinada tarefa para cada item
+_(ou seja, elementos armazenados)_ de um array. Essa tarefa, deverá ser determinada através de uma função.
 
 ## Explicando
 
@@ -44,28 +45,28 @@ numbers.forEach()
 A função **_"forEach()"_** espera receber dentro dela, como parâmetro, outra função.
 <br/>Exemplo:
 
-
 #### Vamos usar essa função dentro de forEach()
+
 ```javascript
 function consoleItem(item) {
-	console.log(item)
+  console.log(item)
 }
 ```
 
-> Essa função faz um *console.log()* ou seja, imprime no console, o que lhe foi passada como parâmetro *(dentro dos parênteses)*. 
+> Essa função faz um _console.log()_ ou seja, imprime no console, o que lhe foi passada como parâmetro _(dentro dos parênteses)_.
 
 #### Aplicando na prática
 
 > Inserindo essa nossa função criada como parâmetro na função **.forEach()** aplicada em nosso array, teremos:
 
 ```javascript
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]
 
 function consoleItem(item) {
   console.log(item)
-};
+}
 
-numbers.forEach(consoleItem);
+numbers.forEach(consoleItem)
 ```
 
 Executando esse script, no console, retorna:
@@ -76,17 +77,17 @@ Executando esse script, no console, retorna:
 
 ### Aprofundando
 
-Porém, o mais usual em javascript não é fazer uma função separada *somente* para aplicar dentro de forEach() e sim dentro dela *(a função forEach)* ja escrever a função como parâmetro:
+Porém, o mais usual em javascript não é fazer uma função separada _somente_ para aplicar dentro de forEach() e sim dentro dela _(a função forEach)_ ja escrever a função como parâmetro:
 
 ```javascript
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]
 
 numbers.forEach(function consoleItem(item) {
   console.log(item)
-});
+})
 ```
 
-> Quando executada, essa função exibe o mesmo resultado que a sua anterior. 
+> Quando executada, essa função exibe o mesmo resultado que a sua anterior.
 
 ```
 1 2 3 4 5
@@ -95,19 +96,19 @@ numbers.forEach(function consoleItem(item) {
 Podemos melhorar ainda mais nosso código usando **_arrows functions_**:
 
 ```javascript
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]
 
-numbers.forEach((item) => {
-	console.log(item)
-});
+numbers.forEach(item => {
+  console.log(item)
+})
 ```
 
 Simplificando a escrita, essa função também pode ser escrita da seguinte maneira:
 
 ```javascript
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]
 
-numbers.forEach(item => console.log(item));
+numbers.forEach(item => console.log(item))
 ```
 
 Ela retornará:
@@ -122,4 +123,4 @@ Para qualquer dúvida, sugestões e comentários, lembre-se que esse blog é ope
 
 Além disso, você pode usar também a seção comentários aqui em baixo!
 
-Saudações, *Israel Cena*.
+Saudações, _Israel Cena_.
