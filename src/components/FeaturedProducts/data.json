@@ -1,9 +1,9 @@
 [
   {
-    "name": "Tutorial Essencial de Shell",
-    "logo": "/logos/shell.svg",
-    "description": "Comandos essenciais que você precisa saber após instalar o linux em seu pc.",
-    "link": "/posts/tutorial-essencial-de-shell-de-15-minutos"
+    "name": "Tutoriais de JavaScript",
+    "logo": "/tech/js.svg",
+  "description": "Tutoriais com dicas, casos de uso e funções nativas para melhorar o seu conhecimento em JavaScript.",
+    "link": "/category/JavaScript"
   },
   {
     "name": "Repositório do site no Github",
