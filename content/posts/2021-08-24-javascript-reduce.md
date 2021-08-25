@@ -45,7 +45,7 @@ Usaremos, para chamar,
 numbers.reduce()
 ```
 
-A função **_"reduce()"_** espera receber dentro dela, como parâmetro, outra função.
+A função `reduce()` espera receber dentro dela, como parâmetro, outra função.
 <br/>Exemplo de uma função para aplicar:
 
 ```javascript
@@ -59,7 +59,7 @@ pelo parâmetro chamado valorAtual.
 
 ### Aplicando na prática
 
-> Inserindo essa nossa função criada como parâmetro na função **_"reduce()"_** aplicada em nosso array, teremos:
+> Inserindo essa nossa função criada como parâmetro na função `reduce()` aplicada em nosso array, teremos:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5]
@@ -81,8 +81,8 @@ Executando esse script, no console, retorna:
 
 ### Aprofundando
 
-A função **_"reduce()"_** também aceita um segundo parâmetro, que é uma função ou um valor que será aplicado ao acumulador.
-Lembrando que acumulador é o primeiro parâmetro passado na função usada para aplicar o **_"reduce()"_** a um array.
+A função `reduce()` também aceita um segundo parâmetro, que é uma função ou um valor que será aplicado ao acumulador.
+Lembrando que acumulador é o primeiro parâmetro passado na função usada para aplicar o `reduce()` a um array.
 <br/>Exemplo:
 
 ```javascript
@@ -103,7 +103,7 @@ Executando esse script, no console, retorna:
 25
 ```
 
-> Na prática, não é comum criar uma função separada para usar o **_"reduce()"_** e sim já criar uma arrow function dentro dos parâmetros,<br/>Exemplo:
+> Na prática, não é comum criar uma função separada para usar o `reduce()` e sim já criar uma arrow function dentro dos parâmetros,<br/>Exemplo:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5]
@@ -121,7 +121,7 @@ Executando esse script, no console, retorna:
 25
 ```
 
-> A função usada para trabalhar com o **_"reduce()"_** é chamada de **_"callback"_**. Ela pode receber até 4 parâmetros. Um Acumulador, um valor e dois parâmetros opcionais.<br/>Exemplo:
+> A função usada para trabalhar com o `reduce()` é chamada de **_"callback"_**. Ela pode receber até 4 parâmetros. Um Acumulador, um valor e dois parâmetros opcionais.<br/>Exemplo:
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5]
@@ -152,7 +152,7 @@ Executando esse script, no console, retorna:
 
 > valor retornado pelo reduce será o da última chamada à callback !
 
-O **_"reduce()"_** pode ser uma ferramenta usada para fazer coisas mais complexas, <br/> como:
+O `reduce()` pode ser uma ferramenta usada para fazer coisas mais complexas, <br/> como:
 
 #### Contando Valores iguais em um array e adiciona-los em um Objeto
 
