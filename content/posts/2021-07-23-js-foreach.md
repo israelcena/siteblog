@@ -5,8 +5,7 @@ slug: /posts/js-foreach
 draft: false
 priority: 0
 date: 2021-07-23T10:43:07.303Z
-description: >-
-  Um tutorial rápido de comandos essenciais que você precisa saber após instalar o linux em seu pc.
+description: Função nativa do JavaScript para executar uma tarefa para cada item do array.
 category: JavaScript
 tags:
   - Javascript
