@@ -6,7 +6,7 @@ draft: false
 priority: 1
 date: 2021-08-24T16:28:53.596Z
 description: Função nativa do JavaScript para reduzir um array.
-category: JavasScript
+category: JavaScript
 tags:
   - Programação
   - JS Functions
