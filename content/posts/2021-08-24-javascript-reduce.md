@@ -184,7 +184,8 @@ Executando esse script, no console, retorna:
 ```
 
 ## Referências
-(MDN - Mozilla)[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce]
+
+[MDN - Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 ## Dúvidas?
 
