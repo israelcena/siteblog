@@ -56,7 +56,7 @@ function consoleItem(item) {
 
 > Essa função faz um _console.log()_ ou seja, imprime no console, o que lhe foi passada como parâmetro _(dentro dos parênteses)_.
 
-#### Aplicando na prática
+### Aplicando na prática
 
 > Inserindo essa nossa função criada como parâmetro na função **.forEach()** aplicada em nosso array, teremos:
 
