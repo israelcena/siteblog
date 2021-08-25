@@ -13,6 +13,8 @@ tags:
   - JS
   - Programação
   - JS Functions
+  - Funções Nativas
+  - forEach
 ---
 
 ## O que faz o método forEach ?
