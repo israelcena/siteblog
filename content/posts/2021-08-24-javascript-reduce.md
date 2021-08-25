@@ -191,6 +191,45 @@ Executando esse script, no console, retorna:
 }
 ```
 
+#### Recebendo o valor total de dentro de um objeto
+
+```javascript
+const store = [
+  {
+    product: 'Laptop',
+    value: 3500,
+    currency: 'BRL',
+    count: 3
+  },
+  {
+    product: 'Iphone 12',
+    value: 15000,
+    currency: 'BRL',
+    count: 1
+  },
+  {
+    product: 'Teclado Mecânico',
+    value: 500,
+    currency: 'BRL',
+    count: 12
+  }
+]
+
+const prevProfits = store.reduce((acc, item) => {
+  return acc + item.value * item.count
+}, 0)
+
+console.log(prevProfits)
+```
+
+Executando esse script, no console, retorna:
+
+```javascript
+31500
+```
+
+####
+
 ## Referências
 
 [MDN - Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
