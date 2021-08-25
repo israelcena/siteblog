@@ -1,6 +1,6 @@
 ---
 template: post
-title: Explicando a Função Reduce() do JavaScript 
+title: Explicando a Função Reduce() do JavaScript
 slug: /posts/javascript-reduce
 draft: false
 priority: 1
@@ -26,8 +26,8 @@ tags:
 
 ## Intro
 
-O JavaScript tem diversas funções nativas para manipular arrays. Essas funções permitem que você crie coisas mais complexas sem precisar 
-de uma biblioteca, de um framework ou de "inventar a roda novamente". 
+O JavaScript tem diversas funções nativas para manipular arrays. Essas funções permitem que você crie coisas mais complexas sem precisar
+de uma biblioteca, de um framework ou de "inventar a roda novamente".
 **A função nativa chamada `reduce()` que pode ser usada para reduzir um array.**
 Vamos ver como ela funciona.
 
@@ -54,8 +54,8 @@ function somaValores(acumulador, valorAtual) {
 }
 ```
 
-> Essa função soma os valores usando o acumulador para armazenar temporariamente o resultado da soma entre os elementos do array representado 
-pelo parâmetro chamado valorAtual.
+> Essa função soma os valores usando o acumulador para armazenar temporariamente o resultado da soma entre os elementos do array representado
+> pelo parâmetro chamado valorAtual.
 
 ### Aplicando na prática
 
@@ -95,8 +95,8 @@ function somaValores(acumulador, valorAtual) {
 var total = numbers.reduce(somaValores, 10)
 
 console.log(total) // 25
-
 ```
+
 Executando esse script, no console, retorna:
 
 ```
@@ -113,8 +113,8 @@ var total = numbers.reduce((acumulador, valorAtual) => {
 }, 10)
 
 console.log(total) // 25
-
 ```
+
 Executando esse script, no console, retorna:
 
 ```
@@ -126,11 +126,10 @@ Executando esse script, no console, retorna:
 ```javascript
 const numbers = [1, 2, 3, 4, 5]
 
-numbers.reduce(function(acumulador, valorAtual, index, array) {
-  return acumulador + valorAtual;
-});
+numbers.reduce(function (acumulador, valorAtual, index, array) {
+  return acumulador + valorAtual
+})
 // 10
-
 ```
 
 Executando esse script, no console, retorna:
@@ -141,14 +140,13 @@ Executando esse script, no console, retorna:
 
 > A função **_"callback"_** será invocada 5 vezes, com os argumentos e valores em cada chamada sendo (passando 0 para valor inicial de acumulador como segundo parâmetro):
 
-|                   | Acumulador | valorAtual | index | array           | valor de retorno   |
-| ---               | ---        | ---        | ---   | ---             | ---                |  
-| Primeira Chamada  | 0          | 1          | 0     | [1, 2, 3, 4, 5] | 1                  |
-| Segunda Chamada   | 1          | 2          | 1     | [1, 2, 3, 4, 5] | 3                  |
-| Terceira Chamada  | 2          | 3          | 2     | [1, 2, 3, 4, 5] | 6                  |
-| Quarta Chamada    | 3          | 4          | 3     | [1, 2, 3, 4, 5] | 10                 |
-| Quinta Chamada    | 4          | 5          | 4     | [1, 2, 3, 4, 5] | 15                 |
-
+|                  | Acumulador | valorAtual | index | array           | valor de retorno |
+| ---------------- | ---------- | ---------- | ----- | --------------- | ---------------- |
+| Primeira Chamada | 0          | 1          | 0     | [1, 2, 3, 4, 5] | 1                |
+| Segunda Chamada  | 1          | 2          | 1     | [1, 2, 3, 4, 5] | 3                |
+| Terceira Chamada | 2          | 3          | 2     | [1, 2, 3, 4, 5] | 6                |
+| Quarta Chamada   | 3          | 4          | 3     | [1, 2, 3, 4, 5] | 10               |
+| Quinta Chamada   | 4          | 5          | 4     | [1, 2, 3, 4, 5] | 15               |
 
 > valor retornado pelo reduce será o da última chamada à callback !
 
@@ -156,27 +154,37 @@ O `reduce()` pode ser uma ferramenta usada para fazer coisas mais complexas, <br
 
 #### Contando Valores iguais em um array e adiciona-los em um Objeto
 
-```javascript	
-const nomes =  ["João", "Maria", "José", "Joana", "José", "João", "Maria", "José", "Joana", "José"]
+```javascript
+const nomes = [
+  'João',
+  'Maria',
+  'José',
+  'Joana',
+  'José',
+  'João',
+  'Maria',
+  'José',
+  'Joana',
+  'José'
+]
 
 const quantidade = nomes.reduce((acumuladorDeNomes, nome) => {
-if (nome in acumuladorDeNomes) {
-  acumuladorDeNomes[nome]++
-} else {
-  acumuladorDeNomes[nome] = 1
-}
-return acumuladorDeNomes
+  if (nome in acumuladorDeNomes) {
+    acumuladorDeNomes[nome]++
+  } else {
+    acumuladorDeNomes[nome] = 1
+  }
+  return acumuladorDeNomes
 }, {})
 
 console.log(quantidade)
-
 ```
 
 Executando esse script, no console, retorna:
 
 ```javascript
 {
-  "João": 2,	
+  "João": 2,
   "Maria": 2,
   "José": 4,
   "Joana": 2,
@@ -189,9 +197,8 @@ Executando esse script, no console, retorna:
 
 ## Dúvidas?
 
-
 Para qualquer dúvida, sugestões e comentários, lembre-se que esse blog é openSource e seu código é aberto e está [disponível no meu github.](https://github.com/israelcena/siteblog)
 
 Além disso, você pode usar também a seção comentários aqui em baixo!
 
-Saudações, _Israel Cena_. 
+Saudações, _Israel Cena_.
