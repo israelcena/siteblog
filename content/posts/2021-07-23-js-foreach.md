@@ -1,6 +1,6 @@
 ---
 template: post
-title: Explicando a Função forEach()
+title: Explicando a Função forEach() do JavaScript 
 slug: /posts/js-foreach
 draft: false
 priority: 0
