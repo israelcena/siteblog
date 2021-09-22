@@ -22,6 +22,8 @@ tags:
 
 ![reduce](/media/javascript-reduce/reduce.png)
 
+[YouTube Vídeo](https://www.youtube.com/watch?v=tgiovqewvOM)
+
 </center>
 
 ## Intro
