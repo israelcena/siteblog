@@ -3,9 +3,9 @@ module.exports = {
   pathPrefix: '/',
   title: 'Blog by Israel Cena',
   keywords:
-    'WebDesigner, Desenvolvedor de sites , WebDeveloper, profissional de marketing, IsraelCena, Israel, Cena, Dev',
+    'FullStack, WebDesigner, Desenvolvedor de sites , WebDeveloper, profissional de marketing, IsraelCena, Israel, Cena, Dev',
   subtitle: 'Desenvolverdor de soluções.',
-  copyright: '© 2021 | Rio de Janeiro, Brasil',
+  copyright: '© 2022 | Rio de Janeiro, Brasil',
   disqusShortname: 'IsraelCena',
   postsPerPage: 10,
   googleAnalyticsId: 'UA-163354111-1',
