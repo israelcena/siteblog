@@ -10,7 +10,7 @@ In this blog I wanted to mix as many resources as possible in order to learn.
 
 ## Screenshots
 
-![App Screenshot](./public/media/app-screenshot.png)
+![App Screenshot](./static/media/app-screenshot.png)
 
 
 ## Stacks
