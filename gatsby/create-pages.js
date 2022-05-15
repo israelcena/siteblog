@@ -11,31 +11,31 @@ const createPages = async ({ graphql, actions }) => {
   // 404
   createPage({
     path: '/404',
-    component: path.resolve('./src/templates/not-found-template.js')
+    component: path.resolve('./src/templates/not-found-template.jsx')
   })
 
   // Tags list
   createPage({
     path: '/tags',
-    component: path.resolve('./src/templates/tags-list-template.js'),
+    component: path.resolve('./src/templates/tags-list-template.jsx'),
     context: { allCategories }
   })
 
   // Categories list
   createPage({
     path: '/categories',
-    component: path.resolve('./src/templates/categories-list-template.js'),
+    component: path.resolve('./src/templates/categories-list-template.jsx'),
     context: { allCategories }
   })
 
   createPage({
     path: '/cv',
-    component: path.resolve('./src/templates/cv-template.js')
+    component: path.resolve('./src/templates/cv-template.jsx')
   })
 
   createPage({
     path: '/portfolio',
-    component: path.resolve('./src/templates/portfolio-template.js')
+    component: path.resolve('./src/templates/portfolio-template.jsx')
   })
 
   // Posts and pages from markdown
@@ -68,7 +68,7 @@ const createPages = async ({ graphql, actions }) => {
     ) {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/page-template.js'),
+        component: path.resolve('./src/templates/page-template.jsx'),
         context: { slug: edge.node.fields.slug, allCategories }
       })
     } else if (
@@ -80,7 +80,7 @@ const createPages = async ({ graphql, actions }) => {
     ) {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/post-template.js'),
+        component: path.resolve('./src/templates/post-template.jsx'),
         context: { slug: edge.node.fields.slug, allCategories }
       })
     }
