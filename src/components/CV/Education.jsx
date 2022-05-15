@@ -6,12 +6,7 @@ const Education = ({ education }) => (
     <h3 className="text-center mt-1 mb-0">Formação</h3>
     <Card className="education">
       {education.map((institution, i) => (
-        <Row
-          type="flex"
-          justify="space-around"
-          key={institution.place}
-          className="text-lg"
-        >
+        <Row type="flex" justify="space-around" key={Math.random()} className="text-lg">
           <Divider orientation="left" className={i === 0 && 'mt-0'}>
             {institution.period}
           </Divider>
