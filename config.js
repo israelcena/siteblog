@@ -3,9 +3,9 @@ module.exports = {
   pathPrefix: '/',
   title: 'Blog by Israel Cena',
   keywords:
-    'FullStack, WebDesigner, Desenvolvedor de sites , WebDeveloper, profissional de marketing, IsraelCena, Israel, Cena, Dev',
-  subtitle: 'Desenvolverdor de soluções.',
-  copyright: '© 2022 | Rio de Janeiro, Brasil',
+    'FullStack Engineer, WebDesigner, Desenvolvedor de sites, WebDeveloper, Profissional de marketing, IsraelCena, Israel, Cena, WebDev, Dev',
+  subtitle: 'Desenvolvedor de soluções.',
+  copyright: '© 2023 | Rio de Janeiro, Brasil',
   disqusShortname: 'IsraelCena',
   postsPerPage: 10,
   googleAnalyticsId: 'UA-163354111-1',
@@ -22,7 +22,7 @@ module.exports = {
   author: {
     name: 'Israel Cena',
     photo: '/photo.jpg',
-    bio: 'Desenvolverdor de soluções.',
+    bio: 'Desenvolvedor de soluções.',
     contacts: {
       github: 'israelcena',
       twitter: 'israelcena',
