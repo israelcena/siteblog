@@ -4,10 +4,6 @@
 Personal blog built with [React](https://reactjs.org/), powered by [Gatsby](https://www.gatsbyjs.com/) and freely hosted in [Netlify](https://www.netlify.com/).
 In this blog I wanted to mix as many resources as possible in order to learn.
 
-
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-
 ## Screenshots
 
 ![App Screenshot](./static/media/app-screenshot.png)
