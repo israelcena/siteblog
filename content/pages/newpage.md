@@ -1,7 +1,7 @@
 ---
 template: page
 title: newpage
-slug: testepage
+slug: pages/testepage
 draft: false
 priority: 0
 ---
